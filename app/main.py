@@ -1,7 +1,13 @@
 import streamlit as st
+# DE:
 from app.api_client import buscar_endereco_por_cep
 from app.models import Paciente, Endereco, Medicamento
 from app.storage import carregar_pacientes, salvar_pacientes
+
+# PARA:
+from api_client import buscar_endereco_por_cep
+from models import Paciente, Endereco, Medicamento
+from storage import carregar_pacientes, salvar_pacientes
 
 st.set_page_config(page_title="💊 MediCuidar", page_icon="💊", layout="centered")
 

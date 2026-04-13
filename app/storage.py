@@ -1,7 +1,7 @@
 import json
 import os
 from typing import List
-from app.models import Paciente, Medicamento, Endereco
+from models import Paciente, Medicamento, Endereco
 
 
 ARQUIVO = "dados_pacientes.json"
