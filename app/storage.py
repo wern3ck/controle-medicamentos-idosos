@@ -1,7 +1,11 @@
-import json
+import sys
 import os
-from typing import List
-from models import Paciente, Medicamento, Endereco
+sys.path.insert(0, os.path.dirname(__file__))
+
+import streamlit as st
+from api_client import buscar_endereco_por_cep
+from models import Paciente, Endereco, Medicamento
+from storage import carregar_pacientes, salvar_pacientes
 
 
 ARQUIVO = "dados_pacientes.json"
