@@ -1,6 +1,6 @@
 # 💊 MediCuidar — Controle de Medicamentos para Idosos
 
-> **🌐 Aplicação publicada:** [LINK_DO_DEPLOY_AQUI]
+> **🌐 Aplicação publicada:** [https://controle-medicamentos-idosos-inqqzrveyrx6qxnmzbwxhu.streamlit.app/]
 
 Sistema web para auxiliar cuidadores no controle de medicamentos
 e horários de idosos, com cadastro de endereço automático via CEP.
