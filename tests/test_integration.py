@@ -3,7 +3,7 @@ Testes de Integração — valida comunicação com a API ViaCEP.
 """
 import pytest
 from unittest.mock import patch, MagicMock
-from app.api_client import buscar_endereco_por_cep
+from api_client import buscar_endereco_por_cep
 
 
 # ── Teste REAL (chama a API de verdade) ────────────────────────────
